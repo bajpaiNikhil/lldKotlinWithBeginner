@@ -61,6 +61,6 @@ Contributions are welcome! 🎉
 If you find this repo useful:  
 - Give it a **⭐ on GitHub**  
 - Share the repo with your peers preparing for LLD interviews  
-- Follow my **[Medium profile](https://medium.com/@bajpainikhil)** for more deep dives  
+- Follow my **[Medium profile](https://medium.com/@nikhil.cse16)** for more deep dives  
 
 ---
