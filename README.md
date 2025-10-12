@@ -1,35 +1,66 @@
-# 🅿️ Parking Lot System in Kotlin (LLD Interview Problem)
+# Low-Level Design in Kotlin (Beginner-Friendly)
 
-This repository contains a **Low-Level Design (LLD)** implementation of the **Parking Lot System** in **Kotlin**.  
-It’s one of the most popular **LLD interview questions** and demonstrates **OOP design, SOLID principles, and concurrency handling**.
+Welcome to **lldKotlinWithBeginner** 🎉  
 
-👉 Read the full article on Medium: [Parking Lot System in Kotlin: A Low-Level Design Interview Classic](https://medium.com/@nikhil.cse16/object-oriented-design-of-parking-lot-system-in-kotlin-c5ace3170c8b)  
-
----
-
-## 📋 Problem Statement
-Design a Parking Lot System that:
-- Supports **multiple floors** and **multiple vehicle types** (Bike, Car, Truck).  
-- Issues a **ticket** when a vehicle enters.  
-- Calculates a **parking fee** when a vehicle exits.  
-- Handles **concurrency** (e.g., two cars trying to grab the last spot).  
+This repository is dedicated to **learning Low-Level Design (LLD)** using **Kotlin** with practical, step-by-step examples.  
+It’s beginner-friendly and designed for developers who want to strengthen their **system design, object-oriented programming, and UML modeling** skills while coding in Kotlin.  
 
 ---
 
-## 🧩 Features Implemented
-- **OOP hierarchy** for Vehicles (Bike, Car, Truck).  
-- ParkingLot → Floor → ParkingSpot relationships.  
-- Ticket generation with entry & exit timestamps.  
-- **FeeCalculator** with hourly rates.  
-- Thread-safety using **locks** to prevent race conditions.  
-- Example simulation of **concurrent vehicle entry**.  
+## 🚀 What’s Inside
+
+Each project in this repo is a real-world **LLD case study**, implemented in Kotlin with a focus on:  
+
+- **Object-Oriented Principles** – encapsulation, inheritance, polymorphism, abstraction  
+- **Clean Architecture** – separating concerns for maintainability  
+- **UML Diagrams + Code** – helping you visualize the design before writing code  
+- **Practical Scenarios** – systems you encounter in real life  
+
+### ✅ Completed LLD Implementations
+- 🅿️ **Parking Lot System**  
+- 🎬 **Movie Ticket Booking System (like BookMyShow)**  
+- 🥤💳 **Vending Machine / ATM System**  
+- 📚 **Library Management System**  
+
+*(More coming soon!)*  
 
 ---
 
-## 🚀 How to Run
+## 📖 Deep Dive Articles on Medium
 
-Clone this repo and run the Kotlin `main()` function:
+I’ve written step-by-step **LLD guides on Medium** to complement this repo.  
+If you’re here from Medium → you’ll find the full code here.  
+If you’re here from GitHub → you’ll find detailed breakdowns in my articles.  
 
-```bash
-git clone https://github.com/yourusername/parking-lot-lld-kotlin.git
-cd parking-lot-lld-kotlin
+- 🎥 [Movie Ticket Booking System in Kotlin](https://medium.com/p/android-system-design-interview-movie-ticket-booking-system-e55e4ea6ca4e)  
+- 🥤 [Vending Machine System in Kotlin](https://medium.com/@nikhil.cse16/designing-a-vending-machine-system-in-kotlin-a-step-by-step-guide-to-lld-and-uml-5b00295fb026)  
+- 🚙 [Parking Lot in Kotlin](https://medium.com/@nikhil.cse16/object-oriented-design-of-parking-lot-system-in-kotlin-c5ace3170c8b)
+- 📚 [Library system in Kotlin](https://medium.com/@nikhil.cse16/3-step-process-to-create-great-software-with-lld-c93eb65ab037)
+
+---
+
+## 👩‍💻 Who Is This For?
+
+- Kotlin developers who want to **level up in LLD**  
+- Beginners preparing for **system design interviews**  
+- Android engineers expanding to **backend/system design**  
+- Anyone who wants to **see real-world examples** of clean, modular Kotlin code  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! 🎉  
+- Spot an improvement? Open a PR  
+- Have an idea for another LLD system? Raise an issue  
+
+---
+
+## ⭐ Support
+
+If you find this repo useful:  
+- Give it a **⭐ on GitHub**  
+- Share the repo with your peers preparing for LLD interviews  
+- Follow my **[Medium profile](https://medium.com/@bajpainikhil)** for more deep dives  
+
+---
